@@ -1,8 +1,7 @@
-Using the above JSON data subset, I want to convert that data set into a list, by entry that has enumerated and bulleted items from each entry
+Using the above JSON data subset, I want to convert that data set into a list, by entry that has enumerated and bulleted items from each entry. Display just the first record converted. Ask if I would like to make changes or, if satisfied, create a download file containing all records.
 
 - replace BOLD HTML with BOLD Markdown
 - replace "\n" with " "
-- if `Deck Limit` > 1 than place "false" in `Is Unique`
 
 Use this as your map:
 

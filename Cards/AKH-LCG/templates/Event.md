@@ -15,11 +15,12 @@ Use this as your map:
      - **"text"**: `text`
 
    - **Skills**:
-     - **Agility**: `skill_agility`
-     - **Combat**: `skill_combat`
-     - **Intellect**: `skill_intellect`
-     - **Willpower**: `skill_willpower`
-     - **Wild**: `skill_wild`
+     - **Agility**: `skill_agility` or "N/A" if `skill_agility` is empty
+     - **Combat**: `skill_combat` or "N/A" if `skill_combat` is empty
+     - **Intellect**: `skill_intellect` or "N/A" if `skill_intellect` is empty
+     - **Willpower**: `skill_willpower` or "N/A" if `skill_willpower` is empty
+     - **Wild**: `skill_wild` or "N/A" if `skill_wild` is empty
+
 
    - **Card Details**:
      - **Code**: `code`
@@ -29,4 +30,4 @@ Use this as your map:
    - **Deck Options**: `deck_options`
      - **Quantity**: `quantity`
      - **Is Unique**: if `deck_limit` > 1 then "false" else "true"
-     - **Restrictions**: `restrictions`
+     - **Restrictions**: `restrictions` or "N/A" if `restrictions` is empty
