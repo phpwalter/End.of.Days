@@ -1,11 +1,12 @@
-Here is the sorted markdown list by "Card Name":
-
 ### Horror Cards
 
 1. **Card Name**: Absolute Terror
     - **Expansion**: Core Set
     - **Card Count**: 2
-    - **Effect**: The only thing louder than your pounding heart is your desperate, ragged breathing.
+       - **Card 1**: "Absolute Terror"
+          - **Effect**: You make a very small noise somewhere in the back of your throat. You find that you are weeping, silently.
+       - **Card 2**: "Absolute Terror"
+          - **Effect**: The only thing louder than your pounding heart is your desperate, ragged breathing.
     - **Outcome**: Suffer 1 additional facedown Horror. Then flip this card facedown.
     - **Resolution**: Resolve Immediately
 
@@ -110,7 +111,10 @@ Here is the sorted markdown list by "Card Name":
 1. **Card Name**: Hysteria
     - **Expansion**: Core Set
     - **Card Count**: 2
-    - **Effect**: Screaming hysterically, you claw at your own flesh with your nails.
+       - **Card 1**:
+          - **Effect**: Screaming hysterically, you claw at your own flesh with your nails.
+       - **Card 2**:
+          - **Effect**: You scream, and scream. You slap yourself as hard as can, hoping to break the cycle. 
     - **Outcome**: Flip 1 Damage faceup. Then flip this card facedown.
     - **Resolution**: Resolve Immediately
 
@@ -129,6 +133,29 @@ Here is the sorted markdown list by "Card Name":
     - **Resolution**: Keep Faceup
 
 1. **Card Name**: Minor Shock
+    - **Expansion**: Core Set
+    - **Card Count**: 16
+    - **Effect**:Ah! Your heart races, and your breath catches in your throat.
+    - **Outcome**: No additional effect. Flip this card facedown.
+    - **Resolution**: Resolve Immediately
+
+1. **Card Name**: Mirror Image
+    - **Expansion**: Sanctum of Twilight
+    - **Card Count**: 1
+    -- **Card 1**:
+    - **Effect**:.
+    - **Outcome**: No additional effect. Flip this card facedown.
+    - **Resolution**: Resolve Immediately
+
+1. **Card Name**: Mirror Image
+    - **Expansion**: Sanctum of Twilight
+    - **Card Count**: 1
+    -- **Card 1**:
+    - **Effect**: Ah! Your heart races, and your breath catches in your throat.
+    - **Outcome**: No additional effect. Flip this card facedown.
+    - **Resolution**: Resolve Immediately
+
+1. **Card Name**: Minor Shock
     - **Expansion**: Core Set, Beyond the Threshold, Streets of Arkham, Sanctum of Twilight, Horrific Journeys, Path of the Serpent
     - **Card Count**: 16 (Core Set), 1 (Beyond the Threshold), 2 (Streets of Arkham), 1 (Sanctum of Twilight), 1 (Horrific Journeys), 1 (Path of the Serpent)
     - **Effect**: Ah! Your heart races, and your breath catches in your throat.
@@ -145,9 +172,36 @@ Here is the sorted markdown list by "Card Name":
 1. **Card Name**: Panic
     - **Expansion**: Core Set
     - **Card Count**: 2
-    - **Effect**: Scrambling backward, you fall over and hurt yourself. The pain brings you back into focus.
+    - **Effect**: You panic and feel a sudden urge to attack.
+    - **Outcome**: Whenever you end your turn in a space with Darkness, flip 1 facedown Horror.
+    - **Resolution**: Resolve Immediately
+
+1. **Card Name**: Pain
+    - **Expansion**: Core Set
+    - **Card Count**: 2
+       - **Effect**: You suffer 1 facedown Damage.
+    - **Outcome**: Whenever you end your turn in a space with Darkness, flip 1 facedown Horror.
+    - **Resolution**: Resolve Immediately
+
+1. **Card Name**: Panic
+    - **Expansion**: Core Set
+    - **Card Count**: 2
+       - **Card 1**:
+         - **Effect**: Scrambling backward, you fall over and hurt yourself. The pain brings you back into focus.
+       - **Card 2**:
+         - **Effect**: You scream, leaping desperatelyaway, and tumbling into the ground.
     - **Outcome**: Suffer 1 additional facedown Damage. Then flip this card facedown.
     - **Resolution**: Resolve Immediately
+
+1. **Card Name**: Paranoia
+    - **Expansion**: Core Set
+    - **Card Count**: 2
+      - **Card 1**:
+         - **Effect**: Every noise makes you startle and jump. Even your companions unnerve you.
+      - **Card 2**:
+         - **Effect**: You find yourself imagining all the ways your friends could hurt you.
+    - **Outcome**: Whenever you end your turn within range of another investigator, flip 1 Horror faceup.
+    - **Resolution**: Keep Faceup
 
 1. **Card Name**: Paranoia
     - **Expansion**: Core Set
@@ -174,7 +228,7 @@ Here is the sorted markdown list by "Card Name":
     - **Expansion**: Core Set
     - **Card Count**: 1
     - **Effect**: You scream and scream and scream, and then you cry and cry, and then giggle, and then hiccough.
-    - **Outcome**: Become Restrained. Then flip this card facedown.
+    - **Outcome**: Become Restrained. Then flip this card.
     - **Resolution**: Resolve Immediately
 
 1. **Card Name**: Startled
@@ -194,7 +248,10 @@ Here is the sorted markdown list by "Card Name":
 1. **Card Name**: Sudden Shock
     - **Expansion**: Core Set
     - **Card Count**: 2
-    - **Effect**: Gasping in surprise and fear, you clutch at your face, forgetting for a moment what you had been holding only seconds before.
+       - **Card 1**:
+          - **Effect**: Gasping in surprise and fear, you clutch at your face, forgetting for a moment what you had been holding only seconds before.
+       - **Card 2**:
+          - **Effect**: You fling up your hands to defend, sending a few of your possessions flying.0.
     - **Outcome**: Drop 2 random Items. Then flip this card facedown.
     - **Resolution**: Resolve Immediately
 
@@ -225,4 +282,3 @@ Here is the sorted markdown list by "Card Name":
     - **Effect**: You feel something sinister take root within your mind.
     - **Outcome**: Become Mesmerized. Then flip this card facedown.
     - **Resolution**: Resolve Immediately
-

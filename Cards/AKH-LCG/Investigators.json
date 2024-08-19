@@ -1,0 +1,2765 @@
+
+[
+  {
+    "name": "Roland Banks",
+    "aliases": "The Fed",
+    "type": "Investigator: Guardian",
+    "faction": "The Agency",
+    "core_stats": {
+      "physical": {
+        "health": 9,
+        "sanity": 5
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 4,
+        "agility": 2
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Evidence Collection",
+        "description": "After you defeat an enemy, discover 1 clue at your location."
+      },
+      {
+        "skill_name": "Cover Up",
+        "description": "If you have not cleared the clues from Cover Up by the end of the scenario, you suffer 1 mental trauma."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Guardian Cards": "Level 0-5",
+        "Seeker Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Roland's .38 Special",
+        "Evidence!",
+        "Cover Up"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Roland Banks is a seasoned investigator working for the federal government. His latest assignment has drawn him into the shadowy world of Arkham, where something sinister is brewing..."
+  },
+  {
+    "name": "Daisy Walker",
+    "aliases": "The Librarian",
+    "type": "Investigator: Seeker",
+    "faction": "The Miskatonic University",
+    "core_stats": {
+      "physical": {
+        "health": 5,
+        "sanity": 9
+      },
+      "mental": {
+        "intellect": 5,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Tome Action",
+        "description": "You may take an additional action during your turn, which can only be used on Tome abilities."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Seeker Cards": "Level 0-5",
+        "Mystic Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Daisy's Tote Bag",
+        "The Necronomicon"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Daisy Walker, a librarian at Miskatonic University, has always been drawn to the arcane and the mysterious. Her research often leads her to dangerous knowledge, and she must tread carefully as she uncovers the secrets of the Necronomicon..."
+  },
+  {
+    "name": "Skids O'Toole",
+    "aliases": "The Ex-Con",
+    "type": "Investigator: Rogue",
+    "faction": "The Criminal Underworld",
+    "core_stats": {
+      "physical": {
+        "health": 8,
+        "sanity": 6
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 2
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 4
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "On the Lam",
+        "description": "You may spend 1 resource to gain 1 additional action during your turn."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Rogue Cards": "Level 0-5",
+        "Guardian Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Skids's .45",
+        "Hospital Debts"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Skids O'Toole is a former convict trying to escape his criminal past. His street smarts and agility make him a valuable asset in the fight against the eldritch horrors, but he is haunted by his own debts and the fear that he'll never truly be free..."
+  },
+  {
+    "name": "Agnes Baker",
+    "aliases": "The Waitress",
+    "type": "Investigator: Mystic",
+    "faction": "The Mysterious Order",
+    "core_stats": {
+      "physical": {
+        "health": 6,
+        "sanity": 8
+      },
+      "mental": {
+        "intellect": 2,
+        "willpower": 5
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Painful Memories",
+        "description": "After you take 1 horror, deal 1 damage to an enemy at your location."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Mystic Cards": "Level 0-5",
+        "Survivor Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Heirloom of Hyperborea",
+        "Dark Memory"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Agnes Baker, once an ordinary waitress, discovered her latent magical abilities after a traumatic event. Now, she uses her powers to fight the darkness that threatens Arkham, but every spell she casts brings her closer to the madness that lurks within her..."
+  },
+  {
+    "name": "Wendy Adams",
+    "aliases": "The Urchin",
+    "type": "Investigator: Survivor",
+    "faction": "The Streets of Arkham",
+    "core_stats": {
+      "physical": {
+        "health": 7,
+        "sanity": 7
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 4
+      },
+      "combat": {
+        "combat": 1,
+        "agility": 4
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Streetwise",
+        "description": "Once per round, you may discard a card to re-draw a token from the chaos bag."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Survivor Cards": "Level 0-5",
+        "Rogue Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Wendy's Amulet",
+        "Abandoned and Alone"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Wendy Adams grew up on the streets of Arkham, learning to survive by her wits and her speed. Now, as the city is engulfed by strange and terrifying events, Wendy finds herself on the front lines, fighting to protect the only home she's ever known..."
+  },
+
+  {
+    "name": "Zoey Samaras",
+    "aliases": "The Chef",
+    "type": "Investigator: Guardian",
+    "faction": "The Church",
+    "core_stats": {
+      "physical": {
+        "health": 9,
+        "sanity": 6
+      },
+      "mental": {
+        "intellect": 2,
+        "willpower": 4
+      },
+      "combat": {
+        "combat": 4,
+        "agility": 2
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Cross to Bear",
+        "description": "After an enemy becomes engaged with you, gain 1 resource."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Guardian Cards": "Level 0-5",
+        "Survivor Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Zoey's Cross",
+        "Smite the Wicked"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Zoey Samaras, a devout and determined chef, feels a divine calling to hunt down and destroy evil wherever it lurks. Her religious fervor drives her to wield her cross and her chef’s knife against the forces of darkness."
+  },
+  {
+    "name": "Rex Murphy",
+    "aliases": "The Reporter",
+    "type": "Investigator: Seeker",
+    "faction": "The Arkham Advertiser",
+    "core_stats": {
+      "physical": {
+        "health": 6,
+        "sanity": 9
+      },
+      "mental": {
+        "intellect": 4,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Curse of Failure",
+        "description": "After you succeed at a skill test by 2 or more, discover 1 additional clue at your location."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Seeker Cards": "Level 0-5",
+        "Survivor Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Search for the Truth",
+        "Rex's Curse"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Rex Murphy, a reporter for the Arkham Advertiser, is dogged by an inexplicable string of bad luck. Despite this, he has a knack for uncovering the truth, often at great personal cost."
+  },
+  {
+    "name": "Jenny Barnes",
+    "aliases": "The Dilettante",
+    "type": "Investigator: Rogue",
+    "faction": "The Society",
+    "core_stats": {
+      "physical": {
+        "health": 8,
+        "sanity": 7
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Trust Fund",
+        "description": "Gain 1 additional resource during each upkeep phase."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Rogue Cards": "Level 0-5",
+        "Guardian Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Jenny's Twin .45s",
+        "Searching for Izzie"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Jenny Barnes is a globe-trotting dilettante who uses her wealth and charm to get what she wants. She is on a personal mission to find her missing sister, Izzie, and is willing to dive into the darkest corners of the world to find her."
+  },
+  {
+    "name": "Jim Culver",
+    "aliases": "The Musician",
+    "type": "Investigator: Mystic",
+    "faction": "The Harlem Nightclubs",
+    "core_stats": {
+      "physical": {
+        "health": 7,
+        "sanity": 7
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 4
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 2
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Final Rhapsody",
+        "description": "Skulls are considered 0 during your skill tests."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Mystic Cards": "Level 0-5",
+        "Guardian Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Jim's Trumpet",
+        "Final Rhapsody"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Jim Culver is a talented jazz musician who can communicate with the dead through his music. His mournful tunes have a strange power over the living and the dead alike, allowing him to protect his friends from harm."
+  },
+  {
+    "name": "Ashcan Pete",
+    "aliases": "The Drifter",
+    "type": "Investigator: Survivor",
+    "faction": "The Hobo Community",
+    "core_stats": {
+      "physical": {
+        "health": 6,
+        "sanity": 5
+      },
+      "mental": {
+        "intellect": 2,
+        "willpower": 4
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Duke",
+        "description": "Once per turn, exhaust Duke to either move and investigate or move and fight using Duke’s stats."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Survivor Cards": "Level 0-5",
+        "Mystic Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Duke",
+        "Wracked by Nightmares"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Ashcan Pete is a drifter who roams the country with his faithful dog, Duke. Despite his rough exterior, Pete has a heart of gold and a strong moral compass. He and Duke have an uncanny ability to survive the most harrowing encounters."
+  },
+
+  {
+    "name": "Mark Harrigan",
+    "aliases": "The Soldier",
+    "type": "Investigator: Guardian",
+    "faction": "The Military",
+    "core_stats": {
+      "physical": {
+        "health": 9,
+        "sanity": 5
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 5
+      },
+      "combat": {
+        "combat": 5,
+        "agility": 2
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Sophie (In Loving Memory)",
+        "description": "Reaction: After you take 1 horror: Draw 1 card. (Limit once per phase.)"
+      },
+      {
+        "skill_name": "Sophie (It Was All My Fault...)",
+        "description": "Permanent: You get +1 to all skill values. Forced: After you take damage: Take 1 direct horror."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Guardian Cards": "Level 0-5",
+        "Tactics Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Sophie (In Loving Memory)",
+        "Sophie (It Was All My Fault...)",
+        "Shell Shock"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Mark Harrigan is a battle-hardened soldier who is haunted by the death of his beloved Sophie. His guilt drives him forward in the fight against the horrors of the Mythos, but it also makes him vulnerable to mental strain."
+  },
+  {
+    "name": "Minh Thi Phan",
+    "aliases": "The Secretary",
+    "type": "Investigator: Seeker",
+    "faction": "The Miskatonic University",
+    "core_stats": {
+      "physical": {
+        "health": 5,
+        "sanity": 8
+      },
+      "mental": {
+        "intellect": 4,
+        "willpower": 4
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 4
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Calculated Risk",
+        "description": "Reaction: After you commit a skill card to a skill test, if that card has an action icon matching the skill test's type, you may return it to your hand instead of discarding it."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Seeker Cards": "Level 0-5",
+        "Survivor Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Minh's Notebook",
+        "The King in Yellow (Act 1)"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Minh Thi Phan is a dedicated secretary whose meticulous nature makes her an invaluable asset to any investigation. However, the cursed play, The King in Yellow, threatens to unravel her mind."
+  },
+  {
+    "name": "Sefina Rousseau",
+    "aliases": "The Painter",
+    "type": "Investigator: Rogue",
+    "faction": "The Street",
+    "core_stats": {
+      "physical": {
+        "health": 7,
+        "sanity": 7
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 4
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "A Painted World",
+        "description": "Action: Choose an event card in your hand, remove it from the game, and play it as if it were in your hand."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Rogue Cards": "Level 0-5",
+        "Mystic Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Sefina's Brush",
+        "A Painted World"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Sefina Rousseau is a talented painter with the ability to bring her visions to life—literally. Her connection to the surreal makes her a powerful force against the eldritch, but also leaves her open to the madness that lies beyond the veil."
+  },
+  {
+    "name": "Akachi Onyele",
+    "aliases": "The Shaman",
+    "type": "Investigator: Mystic",
+    "faction": "The Umuofia Tribe",
+    "core_stats": {
+      "physical": {
+        "health": 7,
+        "sanity": 8
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 5
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Spirit-Speaker",
+        "description": "Reaction: After you play an asset with charges, place 1 additional charge on it."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Mystic Cards": "Level 0-5",
+        "Guardian Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Akachi's Spirit-Speaker",
+        "Angered Spirits"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Akachi Onyele is a shaman who can communicate with spirits. Her abilities allow her to wield powerful spells, but the spirits she communes with can be both a blessing and a curse."
+  },
+  {
+    "name": "William Yorick",
+    "aliases": "The Gravedigger",
+    "type": "Investigator: Survivor",
+    "faction": "The Cemetery",
+    "core_stats": {
+      "physical": {
+        "health": 8,
+        "sanity": 6
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 4
+      },
+      "combat": {
+        "combat": 4,
+        "agility": 2
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Gravedigger's Work",
+        "description": "Reaction: After you defeat an enemy, play an asset from your discard pile (paying its cost)."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Survivor Cards": "Level 0-5",
+        "Guardian Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Yorick's Shovel",
+        "Bury Them Deep"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "William Yorick is a gravedigger who has seen too much. His grim occupation has prepared him well for the horrors that lurk in the dark, and he has a knack for making use of the things others have left behind."
+  },
+  {
+    "name": "Lola Hayes",
+    "aliases": "The Actress",
+    "type": "Investigator: Neutral",
+    "faction": "The Theatre",
+    "core_stats": {
+      "physical": {
+        "health": 6,
+        "sanity": 6
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Versatile",
+        "description": "Free Trigger: Switch your role. (Limit once per round.)"
+      }
+    ],
+    "deck": {
+      "options": {
+        "All Factions": "Level 0-3"
+      },
+      "requirements": [
+        "Lola's Script",
+        "Crisis of Identity"
+      ],
+      "additional_restrictions": "Deckbuilding options limit you to a maximum of 2 copies of each card, regardless of faction."
+    },
+    "story": "Lola Hayes is an actress who is constantly shifting between different roles. This versatility makes her uniquely adaptable, but also leaves her struggling with her own identity."
+  },
+
+  {
+    "name": "Mark Harrigan",
+    "aliases": "The Soldier",
+    "type": "Investigator: Guardian",
+    "faction": "The Military",
+    "core_stats": {
+      "physical": {
+        "health": 9,
+        "sanity": 5
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 5
+      },
+      "combat": {
+        "combat": 5,
+        "agility": 2
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Sophie (In Loving Memory)",
+        "description": "Reaction: After you take 1 horror: Draw 1 card. (Limit once per phase.)"
+      },
+      {
+        "skill_name": "Sophie (It Was All My Fault...)",
+        "description": "Permanent: You get +1 to all skill values. Forced: After you take damage: Take 1 direct horror."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Guardian Cards": "Level 0-5",
+        "Tactics Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Sophie (In Loving Memory)",
+        "Sophie (It Was All My Fault...)",
+        "Shell Shock"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Mark Harrigan is a battle-hardened soldier who is haunted by the death of his beloved Sophie. His guilt drives him forward in the fight against the horrors of the Mythos, but it also makes him vulnerable to mental strain."
+  },
+  {
+    "name": "Minh Thi Phan",
+    "aliases": "The Secretary",
+    "type": "Investigator: Seeker",
+    "faction": "The Miskatonic University",
+    "core_stats": {
+      "physical": {
+        "health": 5,
+        "sanity": 8
+      },
+      "mental": {
+        "intellect": 4,
+        "willpower": 4
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 4
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Calculated Risk",
+        "description": "Reaction: After you commit a skill card to a skill test, if that card has an action icon matching the skill test's type, you may return it to your hand instead of discarding it."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Seeker Cards": "Level 0-5",
+        "Survivor Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Minh's Notebook",
+        "The King in Yellow (Act 1)"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Minh Thi Phan is a dedicated secretary whose meticulous nature makes her an invaluable asset to any investigation. However, the cursed play, The King in Yellow, threatens to unravel her mind."
+  },
+  {
+    "name": "Sefina Rousseau",
+    "aliases": "The Painter",
+    "type": "Investigator: Rogue",
+    "faction": "The Street",
+    "core_stats": {
+      "physical": {
+        "health": 7,
+        "sanity": 7
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 4
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "A Painted World",
+        "description": "Action: Choose an event card in your hand, remove it from the game, and play it as if it were in your hand."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Rogue Cards": "Level 0-5",
+        "Mystic Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Sefina's Brush",
+        "A Painted World"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Sefina Rousseau is a talented painter with the ability to bring her visions to life—literally. Her connection to the surreal makes her a powerful force against the eldritch, but also leaves her open to the madness that lies beyond the veil."
+  },
+  {
+    "name": "Akachi Onyele",
+    "aliases": "The Shaman",
+    "type": "Investigator: Mystic",
+    "faction": "The Umuofia Tribe",
+    "core_stats": {
+      "physical": {
+        "health": 7,
+        "sanity": 8
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 5
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Spirit-Speaker",
+        "description": "Reaction: After you play an asset with charges, place 1 additional charge on it."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Mystic Cards": "Level 0-5",
+        "Guardian Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Akachi's Spirit-Speaker",
+        "Angered Spirits"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Akachi Onyele is a shaman who can communicate with spirits. Her abilities allow her to wield powerful spells, but the spirits she communes with can be both a blessing and a curse."
+  },
+  {
+    "name": "William Yorick",
+    "aliases": "The Gravedigger",
+    "type": "Investigator: Survivor",
+    "faction": "The Cemetery",
+    "core_stats": {
+      "physical": {
+        "health": 8,
+        "sanity": 6
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 4
+      },
+      "combat": {
+        "combat": 4,
+        "agility": 2
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Gravedigger's Work",
+        "description": "Reaction: After you defeat an enemy, play an asset from your discard pile (paying its cost)."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Survivor Cards": "Level 0-5",
+        "Guardian Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Yorick's Shovel",
+        "Bury Them Deep"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "William Yorick is a gravedigger who has seen too much. His grim occupation has prepared him well for the horrors that lurk in the dark, and he has a knack for making use of the things others have left behind."
+  },
+  {
+    "name": "Lola Hayes",
+    "aliases": "The Actress",
+    "type": "Investigator: Neutral",
+    "faction": "The Theatre",
+    "core_stats": {
+      "physical": {
+        "health": 6,
+        "sanity": 6
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Versatile",
+        "description": "Free Trigger: Switch your role. (Limit once per round.)"
+      }
+    ],
+    "deck": {
+      "options": {
+        "All Factions": "Level 0-3"
+      },
+      "requirements": [
+        "Lola's Script",
+        "Crisis of Identity"
+      ],
+      "additional_restrictions": "Deckbuilding options limit you to a maximum of 2 copies of each card, regardless of faction."
+    },
+    "story": "Lola Hayes is an actress who is constantly shifting between different roles. This versatility makes her uniquely adaptable, but also leaves her struggling with her own identity."
+  },
+
+  {
+    "name": "Leo Anderson",
+    "aliases": "The Expedition Leader",
+    "type": "Investigator: Guardian",
+    "faction": "The Agency",
+    "core_stats": {
+      "physical": {
+        "health": 8,
+        "sanity": 6
+      },
+      "mental": {
+        "intellect": 3,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 4,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Get to Work!",
+        "description": "At the start of your turn, play an ally asset from your hand, reducing its cost by 1."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Guardian Cards": "Level 0-5",
+        "Survivor Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Mitch Brown",
+        "Call to Adventure"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Leo Anderson is an experienced expedition leader who has seen it all. His rugged experience makes him an invaluable guide through dangerous territories, though his tough exterior hides the burdens he carries."
+  },
+  {
+    "name": "Ursula Downs",
+    "aliases": "The Explorer",
+    "type": "Investigator: Seeker",
+    "faction": "The Miskatonic University",
+    "core_stats": {
+      "physical": {
+        "health": 7,
+        "sanity": 7
+      },
+      "mental": {
+        "intellect": 4,
+        "willpower": 3
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 4
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Quick on Her Feet",
+        "description": "After you move to a location, take an investigate action. This action does not provoke attacks of opportunity."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Seeker Cards": "Level 0-5",
+        "Rogue Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Jake Williams",
+        "Strange Solution"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Ursula Downs is an intrepid explorer, constantly seeking out the unknown. Her adventures have taken her to the farthest reaches of the earth, and she has learned to stay one step ahead of danger."
+  },
+  {
+    "name": "Finn Edwards",
+    "aliases": "The Bootlegger",
+    "type": "Investigator: Rogue",
+    "faction": "The Criminal Underworld",
+    "core_stats": {
+      "physical": {
+        "health": 7,
+        "sanity": 7
+      },
+      "mental": {
+        "intellect": 4,
+        "willpower": 1
+      },
+      "combat": {
+        "combat": 3,
+        "agility": 4
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Elusive",
+        "description": "You may take an additional action during your turn, which can only be used to evade."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Rogue Cards": "Level 0-5",
+        "Seeker Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Smuggled Goods",
+        "Cursed Relic"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Finn Edwards is a smooth-talking bootlegger who always has a plan to escape trouble. His connections in the criminal underworld are matched only by his agility and wits."
+  },
+  {
+    "name": "Father Mateo",
+    "aliases": "The Priest",
+    "type": "Investigator: Mystic",
+    "faction": "The Church",
+    "core_stats": {
+      "physical": {
+        "health": 6,
+        "sanity": 8
+      },
+      "mental": {
+        "intellect": 2,
+        "willpower": 5
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 3
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Blessed",
+        "description": "Once per game, add 1 bless token to the chaos bag."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Mystic Cards": "Level 0-5",
+        "Survivor Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Rite of Sanctification",
+        "Sinister Fates"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Father Mateo is a humble priest who has found himself in the midst of an unholy war. His faith is strong, and he uses it to protect those around him from the evils that lurk in the darkness."
+  },
+  {
+    "name": "Calvin Wright",
+    "aliases": "The Haunted",
+    "type": "Investigator: Survivor",
+    "faction": "The Lost",
+    "core_stats": {
+      "physical": {
+        "health": 6,
+        "sanity": 6
+      },
+      "mental": {
+        "intellect": 2,
+        "willpower": 2
+      },
+      "combat": {
+        "combat": 2,
+        "agility": 2
+      }
+    },
+    "abilities_and_special_skills": [
+      {
+        "skill_name": "Determined Survivor",
+        "description": "For each point of damage and horror you have, you get +1 to all skills."
+      }
+    ],
+    "deck": {
+      "options": {
+        "Survivor Cards": "Level 0-5",
+        "Guardian Cards": "Level 0-2",
+        "Neutral Cards": "Level 0-5"
+      },
+      "requirements": [
+        "Rise to the Occasion",
+        "The Broken Compass"
+      ],
+      "additional_restrictions": "None"
+    },
+    "story": "Calvin Wright is a man haunted by the ghosts of his past. His unique condition allows him to channel his suffering into raw power, making him a force to be reckoned with."
+  },
+
+    {
+      "name": "Carolyn Fern",
+      "aliases": "The Psychologist",
+      "type": "Investigator: Guardian",
+      "faction": "The Agency",
+      "core_stats": {
+        "physical": {
+          "health": 8,
+          "sanity": 9
+        },
+        "mental": {
+          "intellect": 4,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 2
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Soothing Presence",
+          "description": "After 1 or more horror is healed from a card you control, gain 1 resource. Limit once per phase."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Guardian Cards": "Level 0-3",
+          "Seeker Cards": "Level 0-3",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Hypnotic Therapy",
+          "Indebted"
+        ],
+        "additional_restrictions": "You may include up to 15 other cards with the “heals horror” ability."
+      },
+      "story": "Carolyn Fern is a psychologist who has spent her career studying the human mind and its reactions to the unseen. She is particularly interested in cases involving the supernatural, which has led her to Arkham, where the boundaries between the real and the unreal are frighteningly thin..."
+    },
+    {
+      "name": "Joe Diamond",
+      "aliases": "The Private Eye",
+      "type": "Investigator: Guardian",
+      "faction": "The Agency",
+      "core_stats": {
+        "physical": {
+          "health": 9,
+          "sanity": 5
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 4,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Hunch Deck",
+          "description": "Joe Diamond starts the game with a separate 11-card hunch deck, set aside. Once per round, you may play the top card of your hunch deck as if it were in your hand. It costs 2 resources less to play."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Guardian Cards": "Level 0-5",
+          "Seeker Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "38 Long Colt",
+          "Ace of Swords",
+          "Smokescreen"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Joe Diamond is a hard-nosed private detective who takes his job very seriously. After seeing too many things he couldn't explain, Joe's cases have gradually led him to the strange town of Arkham. His relentless pursuit of the truth, no matter how bizarre, has brought him to the edge of sanity..."
+    },
+    {
+      "name": "Marie Lambeau",
+      "aliases": "The Entertainer",
+      "type": "Investigator: Mystic",
+      "faction": "The Silver Twilight Lodge",
+      "core_stats": {
+        "physical": {
+          "health": 6,
+          "sanity": 8
+        },
+        "mental": {
+          "intellect": 4,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 1,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "A Chance Encounter",
+          "description": "You may take 1 additional action during your turn, which can only be used to play Spell or Ritual cards."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Mystic Cards": "Level 0-5",
+          "Seeker Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "The Fool (XIV)",
+          "The Star (XVII)",
+          "Curse of the Rougarou"
+        ],
+        "additional_restrictions": "You may include up to 5 other non-Mystic cards that are of level 0 only."
+      },
+      "story": "Marie Lambeau is a talented singer who, while performing in the deep South, was exposed to a hidden world of spirits and the occult. Her grandmother taught her to embrace her mystical heritage, leading Marie to the secretive Silver Twilight Lodge, where her powers grew..."
+    },
+    {
+      "name": "Rita Young",
+      "aliases": "The Athlete",
+      "type": "Investigator: Survivor",
+      "faction": "The Vigilante",
+      "core_stats": {
+        "physical": {
+          "health": 8,
+          "sanity": 6
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 3,
+          "agility": 5
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Run and Gun",
+          "description": "After you evade an enemy, you may deal 1 damage to that enemy."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Survivor Cards": "Level 0-5",
+          "Rogue Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Track Shoes",
+          "Coping Mechanism"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Rita Young was a track and field star before her career took an unexpected turn. She became a vigilante after her younger sister disappeared, and her investigations have led her to the dark alleys and hidden corners of Arkham, where she uses her speed and agility to outmaneuver the terrors she encounters..."
+    },
+    {
+      "name": "Sefina Rousseau",
+      "aliases": "The Painter",
+      "type": "Investigator: Rogue",
+      "faction": "The Criminal Underworld",
+      "core_stats": {
+        "physical": {
+          "health": 8,
+          "sanity": 8
+        },
+        "mental": {
+          "intellect": 2,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 4
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Pre-painted",
+          "description": "Sefina begins the game with a hand of 13 cards. At the start of the game, choose up to 5 event cards from your hand, and set them aside, out of play. Once per round, you may play an event card set aside this way as if it were in your hand."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Rogue Cards": "Level 0-5",
+          "Mystic Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "The Painted World",
+          "Cursed Luck",
+          "Fateful Foresight"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Sefina Rousseau is a painter whose art is her escape from the grim realities of her life. She has always felt that her paintings were somehow more than they seemed—portals to another world. Her visions have led her to Arkham, where she seeks to uncover the true nature of her powers..."
+    },
+    {
+      "name": "Father Mateo",
+      "aliases": "The Priest",
+      "type": "Investigator: Mystic",
+      "faction": "The Church",
+      "core_stats": {
+        "physical": {
+          "health": 7,
+          "sanity": 8
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 5
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Blessing of Isis",
+          "description": "When you would draw a chaos token from the chaos bag, you may instead search the chaos bag for a bless token and draw that token. If you do, shuffle the chaos bag."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Mystic Cards": "Level 0-5",
+          "Survivor Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "The Chosen One",
+          "Relentless Pursuit",
+          "Sacred Candle"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Father Mateo is a devoted priest who has encountered the unholy and has dedicated his life to fighting it. His faith is unshakable, and he believes he has been chosen by a higher power to combat the forces of darkness that plague Arkham. His journey is one of divine intervention and the fight against overwhelming evil..."
+    },
+
+    {
+      "name": "Luke Robinson",
+      "aliases": "The Dreamer",
+      "type": "Investigator: Mystic",
+      "faction": "The Dreamlands",
+      "core_stats": {
+        "physical": {
+          "health": 7,
+          "sanity": 7
+        },
+        "mental": {
+          "intellect": 4,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Gate Box",
+          "description": "Once per game, you may put Gate Box into play. While it is in play, you may exhaust it to move to any revealed location. If you do, take 1 horror."
+        },
+        {
+          "skill_name": "You Shouldn't Be Here!",
+          "description": "Once per game, when an enemy enters your location, you may evade it, then immediately move to a connecting location."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Mystic Cards": "Level 0-5",
+          "Seeker Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Gate Box",
+          "Dream Diary"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Luke Robinson has always had vivid dreams, but they took a darker turn after he found a strange box in an old, forgotten shop. Now, the line between dream and reality blurs as he navigates the strange and dangerous Dreamlands..."
+    },
+    {
+      "name": "Tony Morgan",
+      "aliases": "The Bounty Hunter",
+      "type": "Investigator: Guardian",
+      "faction": "The Lone Gun",
+      "core_stats": {
+        "physical": {
+          "health": 9,
+          "sanity": 5
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 5,
+          "agility": 2
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Bounty Contracts",
+          "description": "When an enemy enters play, place 1 bounty on it. Gain resources equal to the bounties on enemies you defeat."
+        },
+        {
+          "skill_name": "Big Game Hunter",
+          "description": "When you defeat an enemy with 3 or more health, you may immediately draw 1 card."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Guardian Cards": "Level 0-5",
+          "Rogue Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Tony's .38 Long Colt",
+          "Tony's Bounty Contracts"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Tony Morgan is a man who lives by the gun and has made a living as a bounty hunter. But recently, the bounties he’s been after have been anything but human. His latest job may be his most dangerous yet..."
+    },
+    {
+      "name": "Tommy Muldoon",
+      "aliases": "The Rookie Cop",
+      "type": "Investigator: Guardian",
+      "faction": "The Precinct",
+      "core_stats": {
+        "physical": {
+          "health": 8,
+          "sanity": 6
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 4,
+          "agility": 2
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Ready for Anything",
+          "description": "When you would take damage, you may discard an asset you control to reduce that damage by the asset's cost."
+        },
+        {
+          "skill_name": "A Cop on the Edge",
+          "description": "Once per turn, you may spend 1 resource to deal 1 damage to an enemy at your location."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Guardian Cards": "Level 0-5",
+          "Survivor Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Becky",
+          "Tommy's Badge"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Tommy Muldoon is new to the force, but he’s already seen enough to make him question his place in the world. Determined to protect those he cares about, Tommy has thrown himself headfirst into the fight against the darkness encroaching on Arkham..."
+    },
+    {
+      "name": "Mandy Thompson",
+      "aliases": "The Researcher",
+      "type": "Investigator: Seeker",
+      "faction": "The Miskatonic University",
+      "core_stats": {
+        "physical": {
+          "health": 6,
+          "sanity": 8
+        },
+        "mental": {
+          "intellect": 5,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Research Ability",
+          "description": "After you draw a card, you may look at the top card of your deck. If it is a research card, you may draw it or discard it."
+        },
+        {
+          "skill_name": "Extensive Knowledge",
+          "description": "When investigating, you may spend 1 resource to gain +2 intellect for the test."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Seeker Cards": "Level 0-5",
+          "Mystic Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Mandy's Amulet",
+          "The Necronomicon"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Mandy Thompson is a brilliant researcher whose curiosity has led her into the depths of forbidden knowledge. Now, her quest for answers has brought her to the edge of madness as she delves into the secrets of the Mythos..."
+    },
+    {
+      "name": "Patrice Hathaway",
+      "aliases": "The Violinist",
+      "type": "Investigator: Survivor",
+      "faction": "The Musician's Guild",
+      "core_stats": {
+        "physical": {
+          "health": 5,
+          "sanity": 9
+        },
+        "mental": {
+          "intellect": 2,
+          "willpower": 5
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "The Song of the Soul",
+          "description": "Once per turn, after you discard a card, you may gain 1 resource or draw 1 card."
+        },
+        {
+          "skill_name": "The Haunted Melody",
+          "description": "Once per game, you may play a card from your discard pile as if it were in your hand."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Survivor Cards": "Level 0-5",
+          "Mystic Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Patrice's Violin",
+          "The Red-Gloved Man"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Patrice Hathaway is a gifted violinist who uses her music to connect with the spiritual world. But as her abilities grow stronger, so does the darkness surrounding her, leading Patrice to confront the unseen forces that have haunted her..."
+    },
+    {
+      "name": "Luke Robinson",
+      "aliases": "The Dreamer",
+      "type": "Investigator: Mystic",
+      "faction": "The Dreamlands",
+      "core_stats": {
+        "physical": {
+          "health": 7,
+          "sanity": 7
+        },
+        "mental": {
+          "intellect": 4,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Gate Box",
+          "description": "Once per game, you may put Gate Box into play. While it is in play, you may exhaust it to move to any revealed location. If you do, take 1 horror."
+        },
+        {
+          "skill_name": "You Shouldn't Be Here!",
+          "description": "Once per game, when an enemy enters your location, you may evade it, then immediately move to a connecting location."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Mystic Cards": "Level 0-5",
+          "Seeker Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Gate Box",
+          "Dream Diary"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Luke Robinson has always had vivid dreams, but they took a darker turn after he found a strange box in an old, forgotten shop. Now, the line between dream and reality blurs as he navigates the strange and dangerous Dreamlands..."
+    },
+    {
+      "name": "Tony Morgan",
+      "aliases": "The Bounty Hunter",
+      "type": "Investigator: Guardian",
+      "faction": "The Lone Gun",
+      "core_stats": {
+        "physical": {
+          "health": 9,
+          "sanity": 5
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 5,
+          "agility": 2
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Bounty Contracts",
+          "description": "When an enemy enters play, place 1 bounty on it. Gain resources equal to the bounties on enemies you defeat."
+        },
+        {
+          "skill_name": "Big Game Hunter",
+          "description": "When you defeat an enemy with 3 or more health, you may immediately draw 1 card."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Guardian Cards": "Level 0-5",
+          "Rogue Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Tony's .38 Long Colt",
+          "Tony's Bounty Contracts"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Tony Morgan is a man who lives by the gun and has made a living as a bounty hunter. But recently, the bounties he’s been after have been anything but human. His latest job may be his most dangerous yet..."
+    },
+    {
+      "name": "Tommy Muldoon",
+      "aliases": "The Rookie Cop",
+      "type": "Investigator: Guardian",
+      "faction": "The Precinct",
+      "core_stats": {
+        "physical": {
+          "health": 8,
+          "sanity": 6
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 4,
+          "agility": 2
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Ready for Anything",
+          "description": "When you would take damage, you may discard an asset you control to reduce that damage by the asset's cost."
+        },
+        {
+          "skill_name": "A Cop on the Edge",
+          "description": "Once per turn, you may spend 1 resource to deal 1 damage to an enemy at your location."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Guardian Cards": "Level 0-5",
+          "Survivor Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Becky",
+          "Tommy's Badge"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Tommy Muldoon is new to the force, but he’s already seen enough to make him question his place in the world. Determined to protect those he cares about, Tommy has thrown himself headfirst into the fight against the darkness encroaching on Arkham..."
+    },
+    {
+      "name": "Mandy Thompson",
+      "aliases": "The Researcher",
+      "type": "Investigator: Seeker",
+      "faction": "The Miskatonic University",
+      "core_stats": {
+        "physical": {
+          "health": 6,
+          "sanity": 8
+        },
+        "mental": {
+          "intellect": 5,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Research Ability",
+          "description": "After you draw a card, you may look at the top card of your deck. If it is a research card, you may draw it or discard it."
+        },
+        {
+          "skill_name": "Extensive Knowledge",
+          "description": "When investigating, you may spend 1 resource to gain +2 intellect for the test."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Seeker Cards": "Level 0-5",
+          "Mystic Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Mandy's Amulet",
+          "The Necronomicon"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Mandy Thompson is a brilliant researcher whose curiosity has led her into the depths of forbidden knowledge. Now, her quest for answers has brought her to the edge of madness as she delves into the secrets of the Mythos..."
+    },
+    {
+      "name": "Patrice Hathaway",
+      "aliases": "The Violinist",
+      "type": "Investigator: Survivor",
+      "faction": "The Musician's Guild",
+      "core_stats": {
+        "physical": {
+          "health": 5,
+          "sanity": 9
+        },
+        "mental": {
+          "intellect": 2,
+          "willpower": 5
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "The Song of the Soul",
+          "description": "Once per turn, after you discard a card, you may gain 1 resource or draw 1 card."
+        },
+        {
+          "skill_name": "The Haunted Melody",
+          "description": "Once per game, you may play a card from your discard pile as if it were in your hand."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Survivor Cards": "Level 0-5",
+          "Mystic Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Patrice's Violin",
+          "The Red-Gloved Man"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Patrice Hathaway is a gifted violinist who uses her music to connect with the spiritual world. But as her abilities grow stronger, so does the darkness surrounding her, leading Patrice to confront the unseen forces that have haunted her..."
+    },
+    {
+      "name": "Silas Marsh",
+      "aliases": "The Sailor",
+      "type": "Investigator: Survivor",
+      "faction": "The Marsh Family",
+      "core_stats": {
+        "physical": {
+          "health": 8,
+          "sanity": 6
+        },
+        "mental": {
+          "intellect": 2,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 4,
+          "agility": 4
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Nautical Prowess",
+          "description": "After you reveal a chaos token, you may return a skill card you committed to this test to your hand."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Survivor Cards": "Level 0-5",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Silas's Harpoon",
+          "Captain's Resolve"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Silas Marsh has always felt the call of the sea. The ocean's depths hold mysteries and horrors, some of which Silas himself has glimpsed. As he investigates the strange occurrences in Innsmouth, he finds himself drawn deeper into a dark legacy."
+    },
+    {
+      "name": "Sister Mary",
+      "aliases": "The Nun",
+      "type": "Investigator: Guardian",
+      "faction": "The Church",
+      "core_stats": {
+        "physical": {
+          "health": 7,
+          "sanity": 7
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 3,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Divine Protection",
+          "description": "At the start of the game, add 1 bless token to the chaos bag."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Guardian Cards": "Level 0-5",
+          "Mystic Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "The Guardian Angel",
+          "The Holy Rosary"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Sister Mary has devoted her life to the church, and now she must confront the evil that lurks in Innsmouth. With her unwavering faith and divine protection, she seeks to drive out the darkness and protect the innocent."
+    },
+    {
+      "name": "Dexter Drake",
+      "aliases": "The Magician",
+      "type": "Investigator: Mystic",
+      "faction": "The Performers",
+      "core_stats": {
+        "physical": {
+          "health": 7,
+          "sanity": 7
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 3,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Sleight of Hand",
+          "description": "Once per round, you may spend 1 resource to swap an asset in your hand with an asset in play, ignoring its cost."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Mystic Cards": "Level 0-5",
+          "Rogue Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "The Star of Hyades",
+          "Blood Pact"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Dexter Drake, a world-renowned magician, has always had a knack for real magic. The dark rituals and ancient tomes of Innsmouth call to him, and he knows that only by mastering these powers can he hope to survive the horrors ahead."
+    },
+    {
+      "name": "Amanda Sharpe",
+      "aliases": "The Student",
+      "type": "Investigator: Seeker",
+      "faction": "The Miskatonic University",
+      "core_stats": {
+        "physical": {
+          "health": 5,
+          "sanity": 9
+        },
+        "mental": {
+          "intellect": 5,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Academic Focus",
+          "description": "At the start of your turn, draw 1 card. If it's a skill card, you may commit it to any test this round."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Seeker Cards": "Level 0-5",
+          "Survivor Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Occult Lexicon",
+          "Vicious Blow"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Amanda Sharpe is a brilliant student with a passion for uncovering hidden truths. Her studies have led her to Innsmouth, where she hopes to unlock the mysteries of the past. But some secrets are better left buried..."
+    },
+    {
+      "name": "Trish Scarborough",
+      "aliases": "The Spy",
+      "type": "Investigator: Rogue",
+      "faction": "The Intelligence Agency",
+      "core_stats": {
+        "physical": {
+          "health": 6,
+          "sanity": 8
+        },
+        "mental": {
+          "intellect": 4,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 4
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Espionage",
+          "description": "After you discover 1 or more clues, you may exhaust Trish Scarborough to automatically evade an enemy at your location."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Rogue Cards": "Level 0-5",
+          "Seeker Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Moxie",
+          "Spy Glass"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Trish Scarborough is an experienced spy, trained in the art of espionage. Her latest mission has brought her to Innsmouth, where she must uncover a web of conspiracies and survive the hidden dangers that lurk in the shadows."
+    },
+    {
+      "name": "Lily Chen",
+      "aliases": "The Martial Artist",
+      "type": "Investigator: Mystic",
+      "faction": "The Order of the Wanderer",
+      "core_stats": {
+        "physical": {
+          "health": 8,
+          "sanity": 6
+        },
+        "mental": {
+          "intellect": 2,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 5,
+          "agility": 3
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Unyielding",
+          "description": "Once per round, when you would take damage, you may exhaust Lily Chen to prevent 1 of that damage."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Mystic Cards": "Level 0-5",
+          "Guardian Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Discipline",
+          "Burden of Destiny"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Lily Chen was raised by monks who believed she was destined to fight the forces of darkness. Trained in martial arts from a young age, she has honed her body and mind to near perfection. Now, her journey brings her to the frozen wastes of Antarctica, where she must face unimaginable horrors."
+    },
+    {
+      "name": "Norman Withers",
+      "aliases": "The Astronomer",
+      "type": "Investigator: Seeker",
+      "faction": "Miskatonic University",
+      "core_stats": {
+        "physical": {
+          "health": 7,
+          "sanity": 7
+        },
+        "mental": {
+          "intellect": 5,
+          "willpower": 4
+        },
+        "combat": {
+          "combat": 1,
+          "agility": 2
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Precognition",
+          "description": "You may look at the top card of your deck at any time."
+        },
+        {
+          "skill_name": "Astral Insight",
+          "description": "During your turn, you may play the top card of your deck as if it were in your hand."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Seeker Cards": "Level 0-5",
+          "Mystic Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "The Harbinger",
+          "Whispers in Your Head"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Norman Withers is a professor of astronomy at Miskatonic University. His studies have led him to believe that the stars are not aligned in a way that favors humanity. His research now takes him to Antarctica, where he hopes to uncover the truth behind a cosmic anomaly that could spell doom for the world."
+    },
+    {
+      "name": "Monterey Jack",
+      "aliases": "The Archaeologist",
+      "type": "Investigator: Rogue",
+      "faction": "Independent",
+      "core_stats": {
+        "physical": {
+          "health": 8,
+          "sanity": 5
+        },
+        "mental": {
+          "intellect": 4,
+          "willpower": 2
+        },
+        "combat": {
+          "combat": 3,
+          "agility": 4
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Treasure Hunter",
+          "description": "After you move to a new location, you may draw 1 card or gain 1 resource."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Rogue Cards": "Level 0-5",
+          "Seeker Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Monterey's Map",
+          "Buried Secrets"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Monterey Jack is an archaeologist with a taste for adventure. He has spent his life traveling the world in search of ancient artifacts and lost civilizations. His latest expedition takes him to Antarctica, where he hopes to uncover treasures hidden beneath the ice—but he soon finds that the dangers here are far greater than any he has faced before."
+    },
+    {
+      "name": "Daniela Reyes",
+      "aliases": "The Mechanic",
+      "type": "Investigator: Guardian",
+      "faction": "Independent",
+      "core_stats": {
+        "physical": {
+          "health": 9,
+          "sanity": 5
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 4,
+          "agility": 2
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Retaliation",
+          "description": "After an enemy attacks you, deal 1 damage to that enemy."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Guardian Cards": "Level 0-5",
+          "Survivor Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Mechanic's Wrench",
+          "Desperate for Revenge"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Daniela Reyes is a skilled mechanic who takes pride in her ability to fix anything. When she was asked to join an Antarctic expedition as a vehicle mechanic, she jumped at the chance. However, she quickly realized that the dangers she would face here were far beyond anything she could have prepared for."
+    },
+    {
+      "name": "Bob Jenkins",
+      "aliases": "The Salesman",
+      "type": "Investigator: Survivor",
+      "faction": "Independent",
+      "core_stats": {
+        "physical": {
+          "health": 6,
+          "sanity": 8
+        },
+        "mental": {
+          "intellect": 3,
+          "willpower": 3
+        },
+        "combat": {
+          "combat": 2,
+          "agility": 4
+        }
+      },
+      "abilities_and_special_skills": [
+        {
+          "skill_name": "Business Savvy",
+          "description": "During your turn, you may play an item asset from another investigator's hand, reducing its cost by 2."
+        }
+      ],
+      "deck": {
+        "options": {
+          "Survivor Cards": "Level 0-5",
+          "Rogue Cards": "Level 0-2",
+          "Neutral Cards": "Level 0-5"
+        },
+        "requirements": [
+          "Jenkins' Ledger",
+          "Greed"
+        ],
+        "additional_restrictions": "None"
+      },
+      "story": "Bob Jenkins is a traveling salesman who has a knack for turning a profit in any situation. When he heard about the Antarctic expedition, he saw it as a golden opportunity to make some money. But as he delves deeper into the mysteries of the frozen continent, he realizes that there are some things that even he can't put a price on."
+    },
+
+    [
+      {
+        "name": "Lily Chen",
+        "aliases": "The Martial Artist",
+        "type": "Investigator: Mystic",
+        "faction": "The Order of the Wanderer",
+        "core_stats": {
+          "physical": {
+            "health": 8,
+            "sanity": 6
+          },
+          "mental": {
+            "intellect": 2,
+            "willpower": 4
+          },
+          "combat": {
+            "combat": 5,
+            "agility": 3
+          }
+        },
+        "abilities_and_special_skills": [
+          {
+            "skill_name": "Unyielding",
+            "description": "Once per round, when you would take damage, you may exhaust Lily Chen to prevent 1 of that damage."
+          }
+        ],
+        "deck": {
+          "options": {
+            "Mystic Cards": "Level 0-5",
+            "Guardian Cards": "Level 0-2",
+            "Neutral Cards": "Level 0-5"
+          },
+          "requirements": [
+            "Discipline",
+            "Burden of Destiny"
+          ],
+          "additional_restrictions": "None"
+        },
+        "story": "Lily Chen was raised by monks who believed she was destined to fight the forces of darkness. Trained in martial arts from a young age, she has honed her body and mind to near perfection. Now, her journey brings her to the frozen wastes of Antarctica, where she must face unimaginable horrors."
+      },
+      {
+        "name": "Norman Withers",
+        "aliases": "The Astronomer",
+        "type": "Investigator: Seeker",
+        "faction": "Miskatonic University",
+        "core_stats": {
+          "physical": {
+            "health": 7,
+            "sanity": 7
+          },
+          "mental": {
+            "intellect": 5,
+            "willpower": 4
+          },
+          "combat": {
+            "combat": 1,
+            "agility": 2
+          }
+        },
+        "abilities_and_special_skills": [
+          {
+            "skill_name": "Precognition",
+            "description": "You may look at the top card of your deck at any time."
+          },
+          {
+            "skill_name": "Astral Insight",
+            "description": "During your turn, you may play the top card of your deck as if it were in your hand."
+          }
+        ],
+        "deck": {
+          "options": {
+            "Seeker Cards": "Level 0-5",
+            "Mystic Cards": "Level 0-2",
+            "Neutral Cards": "Level 0-5"
+          },
+          "requirements": [
+            "The Harbinger",
+            "Whispers in Your Head"
+          ],
+          "additional_restrictions": "None"
+        },
+        "story": "Norman Withers is a professor of astronomy at Miskatonic University. His studies have led him to believe that the stars are not aligned in a way that favors humanity. His research now takes him to Antarctica, where he hopes to uncover the truth behind a cosmic anomaly that could spell doom for the world."
+      },
+      {
+        "name": "Monterey Jack",
+        "aliases": "The Archaeologist",
+        "type": "Investigator: Rogue",
+        "faction": "Independent",
+        "core_stats": {
+          "physical": {
+            "health": 8,
+            "sanity": 5
+          },
+          "mental": {
+            "intellect": 4,
+            "willpower": 2
+          },
+          "combat": {
+            "combat": 3,
+            "agility": 4
+          }
+        },
+        "abilities_and_special_skills": [
+          {
+            "skill_name": "Treasure Hunter",
+            "description": "After you move to a new location, you may draw 1 card or gain 1 resource."
+          }
+        ],
+        "deck": {
+          "options": {
+            "Rogue Cards": "Level 0-5",
+            "Seeker Cards": "Level 0-2",
+            "Neutral Cards": "Level 0-5"
+          },
+          "requirements": [
+            "Monterey's Map",
+            "Buried Secrets"
+          ],
+          "additional_restrictions": "None"
+        },
+        "story": "Monterey Jack is an archaeologist with a taste for adventure. He has spent his life traveling the world in search of ancient artifacts and lost civilizations. His latest expedition takes him to Antarctica, where he hopes to uncover treasures hidden beneath the ice—but he soon finds that the dangers here are far greater than any he has faced before."
+      },
+      {
+        "name": "Daniela Reyes",
+        "aliases": "The Mechanic",
+        "type": "Investigator: Guardian",
+        "faction": "Independent",
+        "core_stats": {
+          "physical": {
+            "health": 9,
+            "sanity": 5
+          },
+          "mental": {
+            "intellect": 3,
+            "willpower": 3
+          },
+          "combat": {
+            "combat": 4,
+            "agility": 2
+          }
+        },
+        "abilities_and_special_skills": [
+          {
+            "skill_name": "Retaliation",
+            "description": "After an enemy attacks you, deal 1 damage to that enemy."
+          }
+        ],
+        "deck": {
+          "options": {
+            "Guardian Cards": "Level 0-5",
+            "Survivor Cards": "Level 0-2",
+            "Neutral Cards": "Level 0-5"
+          },
+          "requirements": [
+            "Mechanic's Wrench",
+            "Desperate for Revenge"
+          ],
+          "additional_restrictions": "None"
+        },
+        "story": "Daniela Reyes is a skilled mechanic who takes pride in her ability to fix anything. When she was asked to join an Antarctic expedition as a vehicle mechanic, she jumped at the chance. However, she quickly realized that the dangers she would face here were far beyond anything she could have prepared for."
+      },
+      {
+        "name": "Bob Jenkins",
+        "aliases": "The Salesman",
+        "type": "Investigator: Survivor",
+        "faction": "Independent",
+        "core_stats": {
+          "physical": {
+            "health": 6,
+            "sanity": 8
+          },
+          "mental": {
+            "intellect": 3,
+            "willpower": 3
+          },
+          "combat": {
+            "combat": 2,
+            "agility": 4
+          }
+        },
+        "abilities_and_special_skills": [
+          {
+            "skill_name": "Business Savvy",
+            "description": "During your turn, you may play an item asset from another investigator's hand, reducing its cost by 2."
+          }
+        ],
+        "deck": {
+          "options": {
+            "Survivor Cards": "Level 0-5",
+            "Rogue Cards": "Level 0-2",
+            "Neutral Cards": "Level 0-5"
+          },
+          "requirements": [
+            "Jenkins' Ledger",
+            "Greed"
+          ],
+          "additional_restrictions": "None"
+        },
+        "story": "Bob Jenkins is a traveling salesman who has a knack for turning a profit in any situation. When he heard about the Antarctic expedition, he saw it as a golden opportunity to make some money. But as he delves deeper into the mysteries of the frozen continent, he realizes that there are some things that even he can't put a price on."
+      },
+        {
+          "name": "Amina Zidane",
+          "aliases": "The Operator",
+          "type": "Investigator: Mystic",
+          "faction": "The Occult",
+          "core_stats": {
+            "physical": {
+              "health": 6,
+              "sanity": 8
+            },
+            "mental": {
+              "intellect": 3,
+              "willpower": 5
+            },
+            "combat": {
+              "combat": 2,
+              "agility": 3
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Occult Bargain",
+              "description": "Action: Spend 1 resource to play an asset from your hand. That asset gains a doom."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Mystic Cards": "Level 0-5",
+              "Rogue Cards": "Level 0-2",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Djinn",
+              "Dark Pact"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Amina Zidane was an ordinary office worker until she discovered her ability to manipulate the arcane through seemingly mundane transactions..."
+        },
+        {
+          "name": "Charlie Kane",
+          "aliases": "The Politician",
+          "type": "Investigator: Guardian",
+          "faction": "The Public Office",
+          "core_stats": {
+            "physical": {
+              "health": 7,
+              "sanity": 7
+            },
+            "mental": {
+              "intellect": 4,
+              "willpower": 3
+            },
+            "combat": {
+              "combat": 1,
+              "agility": 2
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Power of Influence",
+              "description": "You may exhaust an ally asset you control to commit its skill icons to a skill test you're performing."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Guardian Cards": "Level 0-5",
+              "Ally Cards": "Level 0-5",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Charlie's Allies",
+              "Debt"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Charlie Kane is a seasoned politician who wields his influence to shape the world around him, making allies as easily as most men breathe..."
+        },
+        {
+          "name": "Carson Sinclair",
+          "aliases": "The Butler",
+          "type": "Investigator: Guardian",
+          "faction": "The Household",
+          "core_stats": {
+            "physical": {
+              "health": 8,
+              "sanity": 6
+            },
+            "mental": {
+              "intellect": 3,
+              "willpower": 3
+            },
+            "combat": {
+              "combat": 2,
+              "agility": 3
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "In Service of Others",
+              "description": "Action: Exhaust Carson Sinclair. Another investigator at your location may take an action as if it were their turn."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Guardian Cards": "Level 0-5",
+              "Ally Cards": "Level 0-2",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Sinclair's Loyalty",
+              "Family Debt"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Carson Sinclair has served the same family for generations, his loyalty unwavering. Now, as darkness spreads, he will protect those under his care at any cost..."
+        },
+        {
+          "name": "Darrell Simmons",
+          "aliases": "The Photographer",
+          "type": "Investigator: Seeker",
+          "faction": "The Press",
+          "core_stats": {
+            "physical": {
+              "health": 7,
+              "sanity": 7
+            },
+            "mental": {
+              "intellect": 4,
+              "willpower": 4
+            },
+            "combat": {
+              "combat": 2,
+              "agility": 3
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Document the Truth",
+              "description": "Reaction: After you successfully investigate, exhaust Darrell Simmons: Discover an additional clue at your location."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Seeker Cards": "Level 0-5",
+              "Survivor Cards": "Level 0-2",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Camera",
+              "Darkroom"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Darrell Simmons, a photographer by trade, has uncovered unsettling truths through his lens. Determined to expose the hidden world beneath the surface, he pursues the truth with relentless focus..."
+        },
+        {
+          "name": "Kymani Jones",
+          "aliases": "The Security Expert",
+          "type": "Investigator: Rogue",
+          "faction": "The Underground",
+          "core_stats": {
+            "physical": {
+              "health": 7,
+              "sanity": 7
+            },
+            "mental": {
+              "intellect": 3,
+              "willpower": 3
+            },
+            "combat": {
+              "combat": 2,
+              "agility": 4
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Underground Network",
+              "description": "Action: Evade an enemy. If you succeed, you may immediately move to a connecting location."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Rogue Cards": "Level 0-5",
+              "Survivor Cards": "Level 0-2",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Lockpicks",
+              "Safe House"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Kymani Jones is an expert in security and infiltration, often operating in the shadows to protect those who cannot protect themselves..."
+        },
+        {
+          "name": "Amina Zidane",
+          "aliases": "The Performer",
+          "type": "Investigator: Mystic",
+          "faction": "The Cabaret",
+          "core_stats": {
+            "physical": {
+              "health": 6,
+              "sanity": 8
+            },
+            "mental": {
+              "intellect": 3,
+              "willpower": 4
+            },
+            "combat": {
+              "combat": 2,
+              "agility": 3
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Dance of the Damned",
+              "description": "Action: Play an event from your hand with a doom token on it. Then, draw 1 card."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Mystic Cards": "Level 0-5",
+              "Rogue Cards": "Level 0-2",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Mystic Cards",
+              "Warding Ritual"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Amina Zidane's performances are not mere entertainment; they are dark rituals that channel ancient powers. She walks the line between this world and the next, using her talents to manipulate the very fabric of reality..."
+        },
+        {
+          "name": "Nathaniel Cho",
+          "aliases": "The Boxer",
+          "type": "Investigator: Guardian",
+          "faction": "The Agency",
+          "core_stats": {
+            "physical": {
+              "health": 9,
+              "sanity": 5
+            },
+            "mental": {
+              "intellect": 2,
+              "willpower": 4
+            },
+            "combat": {
+              "combat": 5,
+              "agility": 2
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "One-Two Punch",
+              "description": "After you deal damage to an enemy with a Fight action, deal 1 additional damage."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Guardian Cards": "Level 0-5",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Randall Cho",
+              "Tommy Malloy",
+              "Gloves of the Champion"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Nathaniel Cho, a professional boxer with a strict code of honor, is drawn into the horrors of Arkham when his brother Randall's safety is threatened. Using his fists and his strong sense of justice, Nathaniel is determined to knock out the forces of darkness."
+        },
+        {
+          "name": "Harvey Walters",
+          "aliases": "The Professor",
+          "type": "Investigator: Seeker",
+          "faction": "The Miskatonic University",
+          "core_stats": {
+            "physical": {
+              "health": 7,
+              "sanity": 8
+            },
+            "mental": {
+              "intellect": 5,
+              "willpower": 3
+            },
+            "combat": {
+              "combat": 1,
+              "agility": 2
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Thirst for Knowledge",
+              "description": "Draw an additional card whenever you draw a card during the investigation phase."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Seeker Cards": "Level 0-5",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Necronomicon",
+              "Vault of Knowledge",
+              "Whitton Greene"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Harvey Walters, a professor at Miskatonic University, has spent years studying ancient tomes and forbidden knowledge. Now, as the horrors of the mythos encroach on the world, Harvey is prepared to use his vast intellect to unravel the mysteries and protect humanity."
+        },
+        {
+          "name": "Winifred Habbamock",
+          "aliases": "The Aviatrix",
+          "type": "Investigator: Rogue",
+          "faction": "The Criminal Underworld",
+          "core_stats": {
+            "physical": {
+              "health": 8,
+              "sanity": 6
+            },
+            "mental": {
+              "intellect": 3,
+              "willpower": 3
+            },
+            "combat": {
+              "combat": 3,
+              "agility": 5
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Double or Nothing",
+              "description": "When you commit a skill card to a test, you may double its skill icons."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Rogue Cards": "Level 0-5",
+              "Survivor Cards": "Level 0-2",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Daring Maneuver",
+              "Buckle Up",
+              "Quick Thinking"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Winifred Habbamock, a daring pilot with a taste for adventure, is always up for a challenge. With her unmatched agility and quick thinking, she flies into danger headfirst, confident that she can outmaneuver anything the mythos throws at her."
+        },
+        {
+          "name": "Jacqueline Fine",
+          "aliases": "The Psychic",
+          "type": "Investigator: Mystic",
+          "faction": "The Order of the Veil",
+          "core_stats": {
+            "physical": {
+              "health": 7,
+              "sanity": 8
+            },
+            "mental": {
+              "intellect": 3,
+              "willpower": 5
+            },
+            "combat": {
+              "combat": 2,
+              "agility": 3
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Precognition",
+              "description": "When you reveal chaos tokens, reveal 3 instead of 1, and choose which one to resolve."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Mystic Cards": "Level 0-5",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Dark Future",
+              "Azure Flame",
+              "Arcane Initiate"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Jacqueline Fine, a psychic sensitive to the supernatural, has been plagued by visions of a dark future. Determined to change fate, she delves into the occult, using her abilities to guide her allies and ward off the encroaching darkness."
+        },
+        {
+          "name": "Stella Clark",
+          "aliases": "The Letter Carrier",
+          "type": "Investigator: Survivor",
+          "faction": "The Ordinary Folk",
+          "core_stats": {
+            "physical": {
+              "health": 8,
+              "sanity": 8
+            },
+            "mental": {
+              "intellect": 3,
+              "willpower": 3
+            },
+            "combat": {
+              "combat": 2,
+              "agility": 3
+            }
+          },
+          "abilities_and_special_skills": [
+            {
+              "skill_name": "Relentless Spirit",
+              "description": "If you fail a skill test, you may take an additional action during your turn."
+            }
+          ],
+          "deck": {
+            "options": {
+              "Survivor Cards": "Level 0-5",
+              "Neutral Cards": "Level 0-5"
+            },
+            "requirements": [
+              "Neither Rain Nor Snow",
+              "Live and Learn",
+              "Old Keyring"
+            ],
+            "additional_restrictions": "None"
+          },
+          "story": "Stella Clark, an ordinary letter carrier in Arkham, finds herself thrust into extraordinary circumstances as the mythos invades her life. With a dogged determination, Stella presses on, refusing to give up no matter how dire the situation."
+        }
+      ]
